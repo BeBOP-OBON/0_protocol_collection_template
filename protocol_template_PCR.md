@@ -114,7 +114,7 @@ Please specify the preparatory actions you took before you collected the samples
 1.  Step 1
 2.  Step 2
 
-PCR
+### PCR
 
 Please specify the actions you took to amplify the previously extracted DNA and the equipment and primers you used (ingredients for the PCR reaction, number of triplicates, PCR cycle parameter)
 
@@ -136,28 +136,31 @@ Please specify the actions you took to amplify the previously extracted DNA and 
 | content | content | content | content |
 
 
+### Quality control, PCR clean-up and sequencing parameter
+
+Please specify the actions you took to confirm the quality of the PCR output, to clean up the PCR output and the equipment you used (e.g. agarose gel to confirm quality, purification of PCR products, library pooling).
+
+1. Step 1
+
+2. Step 2
+
+### Sequencing
+
+Please specify the actions you took to sequence the DNA and note what equipment was needed to do so (loading of sequencing machine, details about the sequencing run, sequencing institution (if out of house), sequencing primers used).
+
+1. Step 1
+
+| Sequencing Primer Name | Direction | Sequence (5’ -> 3’)|
+| ----- | ----- | ----- |
+| content | forward | content |
+| content | reverse | content |
 
 
+2. Step 2
 
+    a. Sub-step a
 
-
-- Step 2
-Filtration
-Please specify how you filtered the samples and note what equipment you used to do so (e.g. mixing, volume filtered, size of filter and pores, filtration apparatus, duration of filtration, replication).
-
-- Step 1
-- Step 2
-Sample preservation
-Please specify what steps you took to preserve the samples taken and note what equipment you used to do so (e.g. freezing in liquid nitrogen).
-
-- Step 1
-- Step 2
-
-Storage
-Please specify how you stored your samples and note what equipment you used to do so (e.g. stored in -80°C freezer).
-
-- Step 1
-- Step 2
+    b. Sub-step b
 
 ## Quality control
 
