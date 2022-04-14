@@ -105,44 +105,12 @@ In the following SOP, please use the exact names of equipment as noted in the ta
 
 Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
 
-## Sampling
-
 Preparation
 
 Please specify the preparatory actions you took before you collected the samples and note what equipment was needed to do so (e.g. disinfection of work surfaces, preparations to the equipment you intend to use later on).
 
 1.  Step 1
 2.  Step 2
-
-### PCR
-
-Please specify the actions you took to amplify the previously extracted DNA and the equipment and primers you used (ingredients for the PCR reaction, number of triplicates, PCR cycle parameter)
-
-1. Step 1
-
-
-| PCR Primer Name | Direction | Sequence (5’ -> 3’)|
-| ----- | ----- | ----- |
-| content | forward | content |
-| content | reverse | content |
-
-2. Step 2
-
-3. Step 3
-
-| PCR step | Temperature | Duration | Repetition |
-| ----- | ----- | ----- | ----- |
-| content | content | content | content |
-| content | content | content | content |
-
-
-### Quality control, PCR clean-up and sequencing parameter
-
-Please specify the actions you took to confirm the quality of the PCR output, to clean up the PCR output and the equipment you used (e.g. agarose gel to confirm quality, purification of PCR products, library pooling).
-
-1. Step 1
-
-2. Step 2
 
 ### Sequencing
 
