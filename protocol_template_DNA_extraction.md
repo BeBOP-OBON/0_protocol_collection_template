@@ -113,18 +113,19 @@ Please specify the preparatory actions you took before you extracted the DNA fro
 
 1. Step 1
 
-2. Step 2
+3. Step 2
 
 ### Extraction
 
 Please specify the actions you took to extract the DNA from your samples and note what equipment was used to do so (e.g. incubation, vortexing, washing, elution, use of controls).
 
 1. Step 1
-2. Step 2
 
-  a. Sub-step a
+3. Step 2
 
-  b. Sub-step b
+   a. Sub-step a
+   
+   b. Sub-step b
 
 
 ## Quality control
