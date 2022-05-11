@@ -20,7 +20,7 @@ jobs:
 
     - name: create pdf file(s)
       run: |
-        ls -1 *.md | sed '/README.md/d' | while read f; do pandoc "$f" -s -o "output/${f%.md}.pdf" --toc --number-sections --verbose; done
+        find . -type f \( -iname "*.md" ! -iname "README.md" \) | while read f; do pandoc "$f" -s -o "output/${f%.md}.pdf" --toc --number-sections --verbose; done
 
     - uses: actions/upload-artifact@v3
       with:
