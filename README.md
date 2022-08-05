@@ -18,7 +18,7 @@ This repository currently contains protocol templates for the following steps of
 - [Sequencing](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_sequencing.md)
 - [In-silico analysis](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_insilico_analysis.md)
 
-All protocol templates follow a similar structure: gGeneral metadata on top, followed by sections on background, personnel required, and equipment required. Next, you will find a section on the Standard Operating Procedure (SOP), which should be used to report on the exact steps taken as part of executing a protocol. In the template for insilico analysis, in place of the SOP, there is a Guide to the archived methodology and a section on Archive content. The templates conclude with References and Appendices.
+All protocol templates follow a similar structure: General metadata on top, followed by sections on background, personnel required, and equipment required. Next, you will find a section on the Standard Operating Procedure (SOP), which should be used to report on the exact steps taken as part of executing a protocol. In the template for insilico analysis, in place of the SOP, there is a Guide to the archived methodology and a section on Archive content. The templates conclude with References and Appendices.
 
 **To use the templates, and apply them to your own protocols, please fork this repository.** For guidance on how to fork a repository, please see [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
