@@ -154,3 +154,7 @@ Provide troubleshooting guidelines when available.
 
 Insert all references cited in the document.
 Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1
+
+# APPENDIX A: DATASHEETS
+
+Link to any documents such as software guidelines, images, etc that support this protocol. Please include a short note describing the document's relevance.
