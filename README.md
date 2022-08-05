@@ -20,9 +20,9 @@ This repository currently contains protocol templates for the following steps of
 
 All protocol templates follow a similar structure (general metadata on top, followed by sections on background, personnel required, and equipment required. Next, you will find a section on the Standard Operating Procedure, which should be used to report on the exact steps taken as part of executing a protocol. The template concludes with References and Appendices.
 
-**To use the templates, and apply them to your own protocols, please fork this repository.** 
+**To use the templates, and apply them to your own protocols, please fork this repository.** For guidance on how to fork a repository, please see [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
-In the forked repository, you can freely edit the content sections of the protocol in markdown. If you are unfamiliar with markdown language, please see this list of resources and softwares to support your work:
+In the forked repository, you may then freely edit the content sections of the protocol in markdown. If you are unfamiliar with markdown language, please see this list of resources and softwares to support your work:
 
 Training resources
 - [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
