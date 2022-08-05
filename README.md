@@ -20,7 +20,9 @@ This repository currently contains protocol templates for the following steps of
 
 All protocol templates follow a similar structure: General metadata on top, followed by sections on background, personnel required, and equipment required. Next, you will find a section on the Standard Operating Procedure (SOP), which should be used to report on the exact steps taken as part of executing a protocol. In the template for insilico analysis, in place of the SOP, there is a Guide to the archived methodology and a section on Archive content. The templates conclude with References and Appendices.
 
-**To use the templates, and apply them to your own protocols, please fork this repository.** For guidance on how to fork a repository, please see [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+**To use the templates, and apply them to your own protocols, please fork this repository.** 
+
+For guidance on how to fork a repository, please see [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 In the forked repository, you may then freely edit the content sections of the protocol in markdown. If you are unfamiliar with markdown language, please see this list of resources and softwares to support your work:
 
@@ -28,7 +30,6 @@ Training resources
 - [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Markdown Crash Course by Traversy Media](https://youtu.be/HUBNt18RFbo) 
 - [Writing on GitHub by GitHub docs](https://docs.github.com/en/get-started/writing-on-github)
-
 
 Markdown Editors (not necessary, but may facilitate editing in markdown).
 - [Visiual Studio Code](https://code.visualstudio.com/Docs/languages/markdown)
