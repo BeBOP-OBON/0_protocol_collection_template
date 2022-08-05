@@ -18,6 +18,22 @@ This repository currently contains protocol templates for the following steps of
 - [Sequencing](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_sequencing.md)
 - [In-silico analysis](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_insilico_analysis.md)
 
-All protocol templates follow a similar structure, and should be used to report on the exact steps taken as part of executing a protocol.
+All protocol templates follow a similar structure (general metadata on top, followed by sections on background, personnel required, and equipment required. Next, you will find a section on the Standard Operating Procedure, which should be used to report on the exact steps taken as part of executing a protocol. The template concludes with References and Appendices.
 
-This only contains the templates. **To use the templates, please fork this repository.** 
+**To use the templates, and apply them to your own protocols, please fork this repository.** 
+
+In the forked repository, you can freely edit the content sections of the protocol in markdown. If you are unfamiliar with markdown language, please see this list of resources and softwares to support your work:
+
+Training resources
+- [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Crash Course by Traversy Media](https://youtu.be/HUBNt18RFbo) 
+- [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github)
+
+
+Markdown Editors (not necessary, but may facilitate editing in markdown).
+- 
+- 
+
+
+
+
