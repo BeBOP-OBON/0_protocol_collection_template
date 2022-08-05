@@ -27,13 +27,12 @@ In the forked repository, you can freely edit the content sections of the protoc
 Training resources
 - [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Markdown Crash Course by Traversy Media](https://youtu.be/HUBNt18RFbo) 
-- [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github)
+- [Writing on GitHub by GitHub docs](https://docs.github.com/en/get-started/writing-on-github)
 
 
 Markdown Editors (not necessary, but may facilitate editing in markdown).
+- [Visiual Studio Code](https://code.visualstudio.com/Docs/languages/markdown)
 - to be added
-- to be added
-
 
 
 
