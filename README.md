@@ -10,4 +10,14 @@ We aim to achieve increased comparability between Biomolecular Ocean Practices (
 ### How to engage with this repository
 Please use this GitHub repository's [Issue tracker](https://github.com/BeBOP-OBON/0_protocol_collection_template/issues) to request changes/additions or report errors or specific concerns related to the protocol templates.
 
-To use the templates, please fork this repository. 
+### How to use the content of this repository
+This repository currently contains protocol templates for the following steps of an omics observation:
+- [Sampling](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_sampling.md)
+- [DNA extraction](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_DNA_extraction.md)
+- [PCR and clean up](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_PCR.md)
+- [Sequencing](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_sequencing.md)
+- [In-silico analysis](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_insilico_analysis.md)
+
+All protocol templates follow a similar structure, and should be used to report on the exact steps taken as part of executing a protocol.
+
+This only contains the templates. **To use the templates, please fork this repository.** 
