@@ -7,9 +7,6 @@ This repository is maintained by the Better Biomolecular Ocean Practices (BeBOP)
 ### Aim and Scope
 We aim to achieve increased comparability between Biomolecular Ocean Practices (BOPs). Currently, the wealth of ocean biomolecular practices is shared in diverse formats (e.g. text in publications, pdfs, ...). To allow the community to understand differences in practices and the potential for integrating the data generated using the BOPs, we intend to offer means of standardization via the development of the templates found in this repository. These will allow humans to more efficiently (or at all) log and compare protocols at scale.
 
-### How to engage with this repository
-Please use this GitHub repository's [Issue tracker](https://github.com/BeBOP-OBON/0_protocol_collection_template/issues) to request changes/additions or report errors or specific concerns related to the protocol templates.
-
 ### How to use the content of this repository
 This repository currently contains protocol templates for the following steps of an omics observation:
 - [Sampling](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_sampling.md)
@@ -19,6 +16,8 @@ This repository currently contains protocol templates for the following steps of
 - [In-silico analysis](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_insilico_analysis.md)
 
 All protocol templates follow a similar structure: General metadata on top, followed by sections on background, personnel required, and equipment required. Next, you will find a section on the Standard Operating Procedure (SOP), which should be used to report on the exact steps taken as part of executing a protocol. In the template for insilico analysis, in place of the SOP, there is a Guide to the archived methodology and a section on Archive content. The templates conclude with References and Appendices.
+
+Note, that the protocol-level metadata is to be reported as part of the protocol in the section [TO_BE_ADDED] following the Minimum Information about an Omic Protocol (MIOP). For more information and guidance on MIOP, please consult the [MIOP repository](https://github.com/BeBOP-OBON/miop) in this organisation.
 
 **To use the templates, and apply them to your own protocols, please fork this repository.** 
 
@@ -36,4 +35,6 @@ Markdown Editors (not necessary, but may facilitate editing in markdown).
 - to be added
 
 
+### How to engage with this repository
+Please use this GitHub repository's [Issue tracker](https://github.com/BeBOP-OBON/0_protocol_collection_template/issues) to request changes/additions or report errors or specific concerns related to the protocol templates.
 
