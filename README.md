@@ -31,8 +31,8 @@ Training resources
 
 
 Markdown Editors (not necessary, but may facilitate editing in markdown).
-- 
-- 
+- to be added
+- to be added
 
 
 
