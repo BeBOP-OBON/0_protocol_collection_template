@@ -45,6 +45,7 @@ Markdown Editors (not necessary, but may facilitate editing in markdown)
 
 ### Sections to be added
 - convert markdown to pdf xRef https://github.com/BeBOP-OBON/0_protocol_collection_template/issues/1
+   - https://www.markdowntopdf.com
 - release your repository
 - versioning
 - get DOIs from zenodo
