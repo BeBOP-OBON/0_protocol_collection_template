@@ -39,7 +39,6 @@ Training resources
 
 Markdown Editors (not necessary, but may facilitate editing in markdown)
 - [Visiual Studio Code](https://code.visualstudio.com/Docs/languages/markdown)
-- to be added
 
 --- 
 
