@@ -1,5 +1,3 @@
-🚧 This README is currently under construction and may be subject to change 🚧
-
 # Protocol collection templates
 
 This repository contains protocol templates for biomolecular ocean observing. The templates were developed on the basis of the NEON and AWI protocol templates, and adapted for the purpose of capturing metagenomic ocean observing workflows. 
