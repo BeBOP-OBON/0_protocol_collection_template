@@ -40,16 +40,22 @@ Training resources
 Markdown Editors (not necessary, but may facilitate editing in markdown)
 - [Visiual Studio Code](https://code.visualstudio.com/Docs/languages/markdown)
 
---- 
+### Versioning
+**TO_BE_ADDED**
 
-### Sections to be added
-- convert markdown to pdf xRef https://github.com/BeBOP-OBON/0_protocol_collection_template/issues/1
-   - https://www.markdowntopdf.com
-- release your repository
-- versioning
-- get DOIs from zenodo
+### Converting Markdown to PDF
+For sharing the protocols, PDF versions of the protocols may be more convenient(xRef https://github.com/BeBOP-OBON/0_protocol_collection_template/issues/1). The PDF versions of the protocols can also be added to your repository alongside with their markdown versions. 
 
---- 
+Please see below for some tools to convert your markdown file to PDF
+- [Markdowntopdf](https://www.markdowntopdf.com)(online tool)
+- [GitHub action to make pdfs from markdown files](https://github.com/BaileyJM02/markdown-to-pdf)
+
+### Release your repository
+
+For information on creating a release of your repository, please see the guidance [here](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+
+### Get DOIs from zenodo
+**TO_BE_ADDED**
 
 ## How to engage with this repository
 Please use this GitHub repository's [Issue tracker](https://github.com/BeBOP-OBON/0_protocol_collection_template/issues) to request changes/additions or report errors or specific concerns related to the protocol templates.
