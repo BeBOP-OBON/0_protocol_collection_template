@@ -43,11 +43,10 @@ For the versioning of your protocol, please note the section on _version control
 
 As noted there, we recommend the use of [semantic versioning](https://semver.org). 
 > Given a version number MAJOR.MINOR.PATCH, increment the:
-
 > - MAJOR version when you make incompatible API changes
 > - MINOR version when you add functionality in a backwards compatible manner
 > - PATCH version when you make backwards compatible bug fixes
-
+>
 > Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 ### Converting Markdown to PDF
