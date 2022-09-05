@@ -41,7 +41,16 @@ Markdown Editors (not necessary, but may facilitate editing in markdown)
 - [Visiual Studio Code](https://code.visualstudio.com/Docs/languages/markdown)
 
 ### Versioning
-**TO_BE_ADDED**
+For the versioning of your protocol, please note the section on _version control_ in the [Towards a Best Practice for Developing Best Practices in Ocean Observation (BP4BP): Supporting Methodological Evolution through Actionable Documentation](http://dx.doi.org/10.25607/OBP-781) publication. 
+
+As noted there, we recommend the use of [semantic versioning](https://semver.org). 
+> Given a version number MAJOR.MINOR.PATCH, increment the:
+
+> - MAJOR version when you make incompatible API changes
+> - MINOR version when you add functionality in a backwards compatible manner
+> - PATCH version when you make backwards compatible bug fixes
+
+> Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 ### Converting Markdown to PDF
 For sharing the protocols, PDF versions of the protocols may be more convenient(xRef https://github.com/BeBOP-OBON/0_protocol_collection_template/issues/1). The PDF versions of the protocols can also be added to your repository alongside with their markdown versions. 
@@ -50,12 +59,11 @@ Please see below for some tools to convert your markdown file to PDF
 - [Markdowntopdf](https://www.markdowntopdf.com)(online tool)
 - [GitHub action to make pdfs from markdown files](https://github.com/BaileyJM02/markdown-to-pdf)
 
-### Release your repository
+### Release your repository and get citable DOIs from Zenodo
 
-For information on creating a release of your repository, please see the guidance [here](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+For information on creating a release of your repository and getting DOIs from Zenodo, please see the guidance [here](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
 
-### Get DOIs from zenodo
-**TO_BE_ADDED**
+Please also note the [GLOMICON community](https://zenodo.org/communities/glomicon/) on Zenodo. When archiving your repository with Zenodo, please do so in this community.
 
 ## How to engage with this repository
 Please use this GitHub repository's [Issue tracker](https://github.com/BeBOP-OBON/0_protocol_collection_template/issues) to request changes/additions or report errors or specific concerns related to the protocol templates.
