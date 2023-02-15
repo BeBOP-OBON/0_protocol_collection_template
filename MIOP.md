@@ -1,23 +1,27 @@
-## MIOP Metadata
+## Minimum Information about an Omics Protocol (MIOP)
 
-### Unique Protocol ID:
+See https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml for list and definitions.
 
-### Methodology category:
-
-### Project:
-
-### Purpose:
-
-### Resources:
-
-### Analyses:
-
-### Geographic Location:
-
-### Broad-scale environmental context:
-
-### Local environmental context:
-
-### Environmental medium:
-
-### Target:
+| MIOP Term  | Value |
+| ------------- | ------------- | 
+| methodology category  |  |
+| project  |  |
+| purpose  |  |
+| analyses  |  |
+| geographic location  |  |
+| broad-scale environmental context  |  |
+| local environmental context  |  |
+| environmental medium  |  |
+| target  |  |
+| creator  |  |
+| materials required  |  |
+| skills required  |  |
+| time required  |  |
+| personnel required  |  |
+| language  |  |
+| issued  |  |
+| audience  |  |
+| publisher  |  |
+| hasVersion  |  |
+| license  |  |
+| maturity level  |  |
