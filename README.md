@@ -37,6 +37,7 @@ Training resources
 
 Markdown Editors (not necessary, but may facilitate editing in markdown)
 - [Visiual Studio Code](https://code.visualstudio.com/Docs/languages/markdown)
+- [MacDown](https://macdown.uranusjr.com), open source Markdown editor for macOS
 
 ### Versioning
 For the versioning of your protocol, please note the section on _version control_ in the [Towards a Best Practice for Developing Best Practices in Ocean Observation (BP4BP): Supporting Methodological Evolution through Actionable Documentation](http://dx.doi.org/10.25607/OBP-781) publication. 
