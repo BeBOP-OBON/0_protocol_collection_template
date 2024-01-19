@@ -1,10 +1,15 @@
 # Protocol Template
 
-MIOP protocol template
+### Quick Links:
+
+- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
+- [Background](#BACKGROUND)
+- [Equipment](#EQUIPMENT)
+- [Standard Operating Procedure](#STANDARD-OPERATING-PROCEDURE)
 
 ## Minimum Information about an Omics Protocol (MIOP)
 
-See https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml for list and definitions.
+See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
 
 | MIOP Term  | Value |
 | ------------- | ------------- | 
@@ -38,45 +43,14 @@ See https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml for lis
 | Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
 | Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
 
-## PROTOCOL REVISION RECORD
+## RELATED PROTOCOLS
 
-Version numbers start at "1.0.0" when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0). Please store all versions in the gDrive folder designated to your institute.
+This is a list of protocols which should be known to users of this protocol. For example, if you create a derivative or altered protocol, you would link to the original protocol in the section below. Please include the link to each related protocol. Also include the version number of that protocol when you linked to it.
 
-| VERSION  | RELEASE DATE This is the date when a given protocol version was finalised | DESCRIPTION OF REVISIONS Please include a brief description of what was changed relative to the previous version |
-| ------------- | ------------- | ------------- |
-| 1.0.0  | yyyy-mm-dd  | Initial release  |
-| Content Cell  | Content Cell  | Content Cell  |
-
-## RELATED PROTOCOLS IN YOUR FOLDER
-
-This is a list of other protocols deposited in your folder which should be known to users of this protocol. For example, if you create a derivative or altered protocol, you would link to the original protocol in the section below. Please include the link to each related protocol. Also include the version number of that protocol when you linked to it.
-
-| PROTOCOL NAME AND LINK  | VERSION The version of the protocol you linked to | RELEASE DATE This is the date corresponding to the version listed to the left |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | yyyy-mm-dd  |
-| Content Cell  | Content Cell  | yyyy-mm-dd  |
-
-## RELATED EXTERNAL PROTOCOLS
-
-This is a list of other protocols that are not in your folder which should be known to users of this protocol. These include, e.g., kit manuals. Please upload all relevant external protocols to Appendix A and link to them here.
-
-| EXTERNAL PROTOCOL NAME AND LINK  | ISSUER / AUTHOR Please note who authored the protocol (this may also be a company name) | ACCESS DATE This is the date you downloaded or scanned the protocol and uploaded it. |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | yyyy-mm-dd  |
-| Content Cell  | Content Cell  | yyyy-mm-dd  |
-
-## ACRONYMS AND ABBREVIATIONS
-
-| ACRONYM / ABBREVIATION | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-
-## GLOSSARY
-
-| SPECIALISED TERM | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| PROTOCOL NAME | LINK  | VERSION The version of the protocol you linked to | RELEASE DATE This is the date corresponding to the version listed to the left |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
+| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 
 # BACKGROUND
 
@@ -96,7 +70,7 @@ Insert a short statement explaining why the specific methodology used in the pro
 
 If applicable, please specify the region where the protocol is applied. For regional term guidance see here. If applicable, please indicate here the environment(s) of relevance for the protocol, e.g. Abyssal plain. Select from the ENVO terminology.
 
-# PERSONNEL REQUIRED
+## PERSONNEL REQUIRED
 
 Insert the number of technicians, data managers, and scientists required for the good execution of the procedure
 
@@ -130,11 +104,9 @@ Specify how much time is necessary to execute the procedure.
 
 In the following SOP, please use the exact names of equipment as noted in the table above.
 
-## Protocol
-
 Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
 
-Preparation
+### Preparation
 
 Please specify the preparatory actions you took before you collected the samples and note what equipment was needed to do so (e.g. disinfection of work surfaces, preparations to the equipment you intend to use later on).
 
@@ -145,22 +117,32 @@ Please specify the preparatory actions you took before you collected the samples
 
 Please specify the actions you took to amplify the previously extracted DNA and the equipment and primers you used (ingredients for the PCR reaction, number of triplicates, PCR cycle parameter)
 
-1. Step 1
-
+**Primers**: PCR primer sequences
 
 | PCR Primer Name | Direction | Sequence (5’ -> 3’)|
 | ----- | ----- | ----- |
 | content | forward | content |
 | content | reverse | content |
 
-2. Step 2
+**Reaction Mixture**: PCR reagents, volumes, initial and final concentrations
 
-3. Step 3
+| reagent | volume | intial concentration| final concentration|
+| ----- | ----- | ----- |----- |
+| content | content | content |content |
+| content | content | content |content |
+
+**PCR Cycling Program**: 
 
 | PCR step | Temperature | Duration | Repetition |
 | ----- | ----- | ----- | ----- |
 | content | content | content | content |
 | content | content | content | content |
+
+1. Step 1
+
+2. Step 2
+
+3. Step 3
 
 
 ### Quality control, PCR clean-up
@@ -180,11 +162,24 @@ Describe and explain criteria used to validate results of the standard operating
 Identify known issues associated with the procedure, if any.
 Provide troubleshooting guidelines when available.
 
-# REFERENCES
+## ACRONYMS AND ABBREVIATIONS
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+
+## GLOSSARY
+
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+## REFERENCES
 
 Insert all references cited in the document.
 Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1
 
-# APPENDIX A: DATASHEETS
+## APPENDIX A: DATASHEETS
 
 Link templates (e.g. preformatted spreadsheets) used to record measurements and report on the quality of the data as well as any documents such as manufacturer specifications, images, etc that support this protocol. Please include a short note describing the document's relevance.

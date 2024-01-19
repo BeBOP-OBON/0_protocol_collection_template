@@ -9,7 +9,7 @@
 
 ## Minimum Information about an Omics Protocol (MIOP)
 
-See [https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
+See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
 
 | MIOP Term  | Value |
 | ------------- | ------------- | 
@@ -50,19 +50,6 @@ This is a list of protocols which should be known to users of this protocol. For
 | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
-
-## ACRONYMS AND ABBREVIATIONS
-
-| ACRONYM / ABBREVIATION | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-
-## GLOSSARY
-
-| SPECIALISED TERM | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 # BACKGROUND
 
@@ -149,11 +136,24 @@ Describe and explain criteria used to validate results of the standard operating
 Identify known issues associated with the procedure, if any.
 Provide troubleshooting guidelines when available.
 
-# REFERENCES
+## ACRONYMS AND ABBREVIATIONS
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+
+## GLOSSARY
+
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+## REFERENCES
 
 Insert all references cited in the document.
 Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1
 
-# APPENDIX A: DATASHEETS
+## APPENDIX A: DATASHEETS
 
 Link templates (e.g. preformatted spreadsheets) used to record measurements and report on the quality of the data as well as any documents such as manufacturer specifications, images, etc that support this protocol. Please include a short note describing the document's relevance.
