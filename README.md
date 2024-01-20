@@ -19,7 +19,7 @@ This repository currently contains protocol templates for the following steps of
 
 All protocol templates follow a similar structure: General metadata on top, followed by sections on background, personnel required, and equipment required. Next, you will find a section on the Standard Operating Procedure (SOP), which should be used to report on the exact steps taken as part of executing a protocol. In the template for insilico analysis, in place of the SOP, there is a Guide to the archived methodology and a section on Archive content. The templates conclude with References and Appendices.
 
-Note, that the protocol-level metadata is to be reported as part of the protocol in the section [TO_BE_ADDED] following the Minimum Information about an Omic Protocol (MIOP). For more information and guidance on MIOP, please consult the [MIOP repository](https://github.com/BeBOP-OBON/miop) in this organisation.
+Note, that the protocol-level metadata is to be reported as part of the protocol in the section Minimum Information about an Omic Protocol (MIOP). For more information and guidance on MIOP, please refer to this document [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) or consult the [MIOP repository](https://github.com/BeBOP-OBON/miop) in this organisation.
 
 ### Forking the repository to use the protocol templates
 
