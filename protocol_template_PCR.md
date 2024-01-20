@@ -70,7 +70,7 @@ Insert a short statement explaining why the specific methodology used in the pro
 
 If applicable, please specify the region where the protocol is applied. For regional term guidance see here. If applicable, please indicate here the environment(s) of relevance for the protocol, e.g. Abyssal plain. Select from the ENVO terminology.
 
-## PERSONNEL REQUIRED
+## Personnel Required
 
 Insert the number of technicians, data managers, and scientists required for the good execution of the procedure
 
