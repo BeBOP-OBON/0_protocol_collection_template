@@ -8,7 +8,7 @@
 | purpose  | biodiversity assessment objective [OBI:0001969] | Terms to describe the purpose of the omics research. [e.g., time series design (OBI:0500020) or taxonomic diversity assessment by targeted gene survey (OBI:0001960)]. |
 | analyses  | DNA extraction [OBI:0000257]| Terms to describe the types of analyses used inthe protocol [e.g., amplicon sequencing assay [OBI:0002767] or polymerase chain reaction [OBI:0002692]] |
 | geographic location  | Monterey Bay [GAZ:00002509] | Geographic location/s in which the protocol hasbeen used [e.g., Hawaii Ocean Time-series Site [GAZ:00187530], Western English Channel Sampling Stations [GAZ:00187525]] |
-| broad-scale environmental context  |marine biome [ENVO_00000447]  | Biomes in which the protocol was successfully used [e.g., oceanic epipelagic zone biome [ENVO:01000033]] |
+| broad-scale environmental context  |marine biome [ENVO:00000447]  | Biomes in which the protocol was successfully used [e.g., oceanic epipelagic zone biome [ENVO:01000033]] |
 | local environmental context  | oceanic epipelagic zone biome [ENVO:01000033] | Environmental features targeted using the protocol [e.g., seasonal marine thermocline [ENVO:01000107]] |
 | environmental medium  | sea water [ENVO:00002149] | Identify the environmental or organismal material from which the biological molecule (e.g., DNA/RNA/Protein) was extracted [e.g., sea water [ENVO:00002149]] |
 | target  | deoxyribonucleic acid [CHEBI:16991] | Identify the target taxa, gene and/or moleculefor the protocol [e.g., Polaribacter [NCBITaxon:1642819], 16S Mitochondrial Ribosomal RNA [NCIT:C131261]]. |
