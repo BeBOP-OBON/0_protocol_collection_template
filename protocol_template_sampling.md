@@ -5,7 +5,7 @@
 - [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
 - [Background](#BACKGROUND)
 - [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure](#STANDARD-OPERATING-PROCEDURE)
+- [Standard Operating Procedure (main protocol)](#STANDARD-OPERATING-PROCEDURE)
 
 ## Minimum Information about an Omics Protocol (MIOP)
 
