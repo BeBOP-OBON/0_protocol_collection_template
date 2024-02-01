@@ -26,7 +26,11 @@ Note, that the protocol-level metadata is to be reported as part of the protocol
 **To use the templates, and apply them to your own protocols, please create a repository from this template.**
 
 This repository is a "template respository". For guidance on how to create your own repository from this template please see [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-For guidance on how to fork a regular repository, please see [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+
+1. Navigate to the main page of the repository
+2. Above the file list, click "Use this template".
+3. Select "Create a new repository".
+4. Choose repository ownership and name your repository after your project or institution
 
 ### Editing the protocol templates
 In your new repository, you may then freely edit the content sections of the protocol in markdown. If you are unfamiliar with markdown language, please see this list of resources and softwares to support your work:
