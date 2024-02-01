@@ -2,7 +2,7 @@
 
 This repository contains protocol templates for biomolecular ocean observing. The templates were developed on the basis of the NEON and AWI protocol templates, and adapted for the purpose of capturing metagenomic ocean observing workflows. 
 
-This repository is maintained by the Better Biomolecular Ocean Practices (BeBOP) group coming out of the [Task Team 21-03: Omics/eDNA Protocol Management](https://www.oceanbestpractices.org/about/task-teams/obps-task-team-21-03-omics-edna-protocol-management/) under the Ocean Best Practices System.
+This repository is maintained by the Better Biomolecular Ocean Practices (BeBOP) UN Ocean Decade Project under the [Ocean Biomolecular Observing Network (OBON)](https://www.obon-ocean.org/) programme. This project developed out of the [Task Team 21-03: Omics/eDNA Protocol Management](https://www.oceanbestpractices.org/about/task-teams/obps-task-team-21-03-omics-edna-protocol-management/) under the Ocean Best Practices System.
 
 ## Aim and Scope
 We aim to achieve increased comparability between Biomolecular Ocean Practices (BOPs). Currently, the wealth of ocean biomolecular practices is shared in diverse formats (e.g. text in publications, pdfs, ...). To allow the community to understand differences in practices and the potential for integrating the data generated using the BOPs, we intend to offer means of standardization via the development of the templates found in this repository. These will allow humans to more efficiently (or at all) log and compare protocols at scale.
@@ -21,14 +21,15 @@ All protocol templates follow a similar structure: General metadata on top, foll
 
 Note, that the protocol-level metadata is to be reported as part of the protocol in the section Minimum Information about an Omic Protocol (MIOP). For more information and guidance on MIOP, please refer to this document [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) or consult the [MIOP repository](https://github.com/BeBOP-OBON/miop) in this organisation.
 
-### Forking the repository to use the protocol templates
+### Create your own repository from this template
 
-**To use the templates, and apply them to your own protocols, please fork this repository.**
+**To use the templates, and apply them to your own protocols, please create a repository from this template.**
 
-For guidance on how to fork a repository, please see [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+This repository is a "template respository". For guidance on how to create your own repository from this template please see [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+For guidance on how to fork a regular repository, please see [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 ### Editing the protocol templates
-In the forked repository, you may then freely edit the content sections of the protocol in markdown. If you are unfamiliar with markdown language, please see this list of resources and softwares to support your work:
+In your new repository, you may then freely edit the content sections of the protocol in markdown. If you are unfamiliar with markdown language, please see this list of resources and softwares to support your work:
 
 Training resources
 - [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
@@ -63,6 +64,6 @@ For information on creating a release of your repository and getting DOIs from Z
 
 Please also note the [GLOMICON community](https://zenodo.org/communities/glomicon/) on Zenodo. When archiving your repository with Zenodo, please do so in this community.
 
-## How to engage with this repository
+## See a problem or have a recommendation?
 Please use this GitHub repository's [Issue tracker](https://github.com/BeBOP-OBON/0_protocol_collection_template/issues) to request changes/additions or report errors or specific concerns related to the protocol templates.
 
