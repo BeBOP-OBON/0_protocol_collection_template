@@ -30,7 +30,8 @@ This repository is a "template respository". For guidance on how to create your 
 1. Navigate to the main page of the repository
 2. Above the file list, click "Use this template".
 3. Select "Create a new repository".
-4. Choose repository ownership and name your repository after your project or institution
+4. Choose repository ownership (select BeBOP-OBON to be featured on this page) and name your repository after your project or institution
+  - *You can always link your repository later to the BeBOP-OBON space if you would like to work on it within your own github location first.*
 
 ### Editing the protocol templates
 In your new repository, you may then freely edit the content sections of the protocol in markdown. If you are unfamiliar with markdown language, please see this list of resources and softwares to support your work:
