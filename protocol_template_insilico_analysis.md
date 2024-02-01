@@ -5,7 +5,7 @@
 - [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
 - [Background](#BACKGROUND)
 - [Equipment](#EQUIPMENT)
-- [Guide to Methodology](#GUIDE-TO-ARCHIVED-METHODOLOGY)
+- [Guide to Methodology (main protocol)](#GUIDE-TO-ARCHIVED-METHODOLOGY)
 
 ## Minimum Information about an Omics Protocol (MIOP)
 
