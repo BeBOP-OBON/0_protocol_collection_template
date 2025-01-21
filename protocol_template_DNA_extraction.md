@@ -1,4 +1,42 @@
-# Protocol Template
+---
+# MIOP terms
+methodology_category: sample extraction and purification
+project: # can be general
+purpose: biodiversity assessment objective [OBI:0001969]
+analyses: DNA extraction [OBI:0000257]
+geographic_location: # Atlantic Ocean [GAZ:00000344], Gulf of Mexico [GAZ:00002853]
+broad_scale_environmental_context: # marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+local_environmental_context: # marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+environmental_medium: # sea water [ENVO:00002149]
+target: deoxyribonucleic acid (DNA) [NCIT:C449]
+creator: # names separated by commas
+materials_required: # vortexer [OBI:0400118], centrifuge [OBI:0400106], DNA extraction/purification instrument [OBI:0001117], multichannel electronic pipette [OBI:0001083] (optional)
+skills_required: sterile technique, pipetting skills, standard molecular technique
+time_required: # minutes (integer)
+personnel_required: 1
+language: en
+issued: # YYYY-MM-DD
+audience: scientists
+publisher: # institution
+
+# FAIRe terms
+samp_vol_we_dna_ext: # 1
+samp_vol_we_dna_ext_unit: # mL
+nucl_acid_ext_lysis: # physical
+nucl_acid_ext_sep: # centrifugation
+nucl_acid_ext: # https://files.zymoresearch.com/protocols/_d4302_d4306_d4308_zymobiomics-96_magbead_dna_kit.pdf
+nucl_acid_ext_kit: # ZymoBIOMICS 96 Magbead DNA Kit
+nucl_acid_ext_modify: # Sterivex was lysed with 1000 uL of ZymoBIOMICS Lysis Solution, use of KingFisher Flex Purification System for bead cleanup and final elution
+dna_cleanup_0_1: # 1.0
+dna_cleanup_method: # ZymoBIOMICS 96 Magbead DNA Kit
+concentration: # not applicable
+concentration_method: # VarioSkan Microplate Reader, Quant-iT dsDNA Assay Kit High Sensitivity
+ratioOfAbsorbance260_280: # not applicable
+pool_dna_num: # not applicable
+nucl_acid_ext_method_additional: # not applicable
+---
+
+# Protocol Template - DNA Extraction
 
 ### Quick Links:
 
