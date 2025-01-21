@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: # minutes (integer)
 personnel_required: 1
 language: en
-issued: # YYYY-MM-DD
+issued: 2024-01-21 # YYYY-MM-DD
 audience: scientists
 publisher: # institution
 
