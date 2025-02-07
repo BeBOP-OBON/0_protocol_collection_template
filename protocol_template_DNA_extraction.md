@@ -87,8 +87,7 @@ This is a list of protocols which should be known to users of this protocol. For
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | 2024-06-26 | Initial release |
-| 1.1.0 | 2024-11-16 | Addition of FAIR eDNA terms in YAML frontmatter |
+| 1.0.0 | yyyy-mm-dd | Initial release |
 
 ### Acronyms and Abbreviations
 
