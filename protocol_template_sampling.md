@@ -1,42 +1,49 @@
 ---
 # MIOP terms
-methodology_category: 
-project: 
-purpose: 
-analyses: 
-geographic_location: 
-broad_scale_environmental_context: 
-local_environmental_context: 
-environmental_medium: 
-target: 
-creator: 
-materials_required: 
-skills_required: 
-time_required: 
-personnel_required: 
-language: 
-issued: 
-audience: 
-publisher: 
-hasVersion: 
-license: 
-maturity level: 
+methodology_category: sample collection
+project: # can be general
+purpose: biodiversity assessment objective [OBI:0001969]
+analyses: filtration [OBI:0302885], environmental material collection process [OBI:0600012]
+geographic_location: # Atlantic Ocean [GAZ:00000344], Gulf of Mexico [GAZ:00002853]
+broad_scale_environmental_context: # marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+local_environmental_context: # marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+environmental_medium: # sea water [ENVO:00002149]
+target: deoxyribonucleic acid (DNA) [NCIT:C449]
+creator: # names separated by commas
+materials_required: filtration [OBI:0302885]
+skills_required: sterile technique, pipetting skills, standard molecular technique, research vessel experience
+time_required: # minutes (integer)
+personnel_required: 1
+language: en
+issued: # YYYY-MM-DD
+audience: scientists
+publisher: # institution
+hasVersion: 1
+license: CC0 1.0 Universal
+maturity level: mature
 
 # FAIRe terms
-samp_category: 
-env_broad_scale: 
-env_local_scale: 
-env_medium: 
-habitat_natural_artificial_0_1: 
-samp_collect_method: 
-samp_collect_device: 
-samp_size: 
-samp_size_unit: 
+samp_category: sample
+env_broad_scale: marine biome [ENVO:00000447]
+env_local_scale: marine photic zone [ENVO:00000209]
+env_medium: sea water [ENVO:00002149]
+habitat_natural_artificial_0_1: 0
+samp_collect_method: CTD rosette
+samp_collect_device: Niskin bottle
+samp_size: # 1000
+samp_size_unit: # mL
 ---
 
 # Protocol Template
 
 ## PROTOCOL INFORMATION
+
+### Quick Links:
+
+- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
+- [Background](#BACKGROUND)
+- [Equipment](#EQUIPMENT)
+- [Standard Operating Procedure (main protocol)](#STANDARD-OPERATING-PROCEDURE)
 
 ## Minimum Information about an Omics Protocol (MIOP)
 
