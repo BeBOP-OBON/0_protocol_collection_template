@@ -56,14 +56,14 @@ samp_size_unit: # mL
 - See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
 - See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
 
-## AUTHORS
+## Authors
 
 | PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID (visit https://orcid.org/ to register) | DATE |
 | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
 | Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
 
-## RELATED PROTOCOLS
+## Related Internal Protocols
 
 This is a list of protocols which should be known to users of this protocol. For example, if you create a derivative or altered protocol, you would link to the original protocol in the section below. Please include the link to each related protocol. Also include the version number of that protocol when you linked to it.
 
@@ -72,7 +72,7 @@ This is a list of protocols which should be known to users of this protocol. For
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 
-## RELATED EXTERNAL PROTOCOLS
+## Related External Protocols
 
 | PROTOCOL NAME | LINK | ISSUER / AUTHOR | ACCESS DATE |
 | ------------ | ------------ | ------------ | ---------- |
