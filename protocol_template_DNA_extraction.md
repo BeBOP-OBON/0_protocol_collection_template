@@ -18,6 +18,9 @@ language: en
 issued: 2024-01-21 # YYYY-MM-DD
 audience: scientists
 publisher: # institution
+hasVersion: 1
+license: CC0 1.0 Universal
+maturity level: mature
 
 # FAIRe terms
 samp_vol_we_dna_ext: # 1
@@ -38,6 +41,8 @@ nucl_acid_ext_method_additional: # not applicable
 
 # Protocol Template - DNA Extraction
 
+## PROTOCOL INFORMATION
+
 ### Quick Links:
 
 - [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
@@ -49,38 +54,20 @@ nucl_acid_ext_method_additional: # not applicable
 
 See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
 
-| MIOP Term  | Value |
-| ------------- | ------------- | 
-| methodology category  |  |
-| project  |  |
-| purpose  |  |
-| analyses  |  |
-| geographic location  |  |
-| broad-scale environmental context  |  |
-| local environmental context  |  |
-| environmental medium  |  |
-| target  |  |
-| creator  |  |
-| materials required  |  |
-| skills required  |  |
-| time required  |  |
-| personnel required  |  |
-| language  |  |
-| issued  |  |
-| audience  |  |
-| publisher  |  |
-| hasVersion  |  |
-| license  |  |
-| maturity level  |  |
+### Making eDNA FAIR (FAIRe)
 
-## AUTHORS
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
+
+## Authors
 
 | PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID (visit https://orcid.org/ to register) | DATE |
 | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
 | Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
 
-## RELATED PROTOCOLS
+## Related Internal Protocols
 
 This is a list of protocols which should be known to users of this protocol. For example, if you create a derivative or altered protocol, you would link to the original protocol in the section below. Please include the link to each related protocol. Also include the version number of that protocol when you linked to it.
 
@@ -88,6 +75,34 @@ This is a list of protocols which should be known to users of this protocol. For
 | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
+
+### Related External Protocols
+
+| PROTOCOL NAME | LINK | ISSUER / AUTHOR | ACCESS DATE |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
+| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
+
+### Protocol Revision Record
+
+| VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
+| ------------- | ------------- | ------------- |
+| 1.0.0 | 2024-06-26 | Initial release |
+| 1.1.0 | 2024-11-16 | Addition of FAIR eDNA terms in YAML frontmatter |
+
+### Acronyms and Abbreviations
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+### Glossary
+
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 # BACKGROUND
 
@@ -173,19 +188,6 @@ Describe and explain criteria used to validate results of the standard operating
 
 Identify known issues associated with the procedure, if any.
 Provide troubleshooting guidelines when available.
-
-## ACRONYMS AND ABBREVIATIONS
-
-| ACRONYM / ABBREVIATION | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-
-## GLOSSARY
-
-| SPECIALISED TERM | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 ## REFERENCES
 
