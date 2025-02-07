@@ -60,20 +60,14 @@ pcr_analysis_software: # not provided
 pcr_method_additional: # not provided
 ---
 
-# Protocol Template
+# Protocol Template - PCR
 
 ## PROTOCOL INFORMATION
 
-### Quick Links:
+### Minimum Information about an Omics Protocol (MIOP)
 
-- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure (main protocol)](#STANDARD-OPERATING-PROCEDURE)
-
-## Minimum Information about an Omics Protocol (MIOP)
-
-See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
 
 ### Making eDNA FAIR (FAIRe)
 
@@ -81,9 +75,13 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 - See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
 - See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
 
-## Authors
+### Authors
 
-| PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID (visit https://orcid.org/ to register) | DATE |
+- All authors known to have contributed to the preparation of this protocol, including those who filled in the template.
+- Visit https://orcid.org/ to register for an ORCID.
+- Date is the date the author first worked on the protocol.
+
+| PREPARED BY | AFFILIATION | ORCID | DATE |
 | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
 | Content Cell  | Content Cell  | Content Cell | yyyy-mm-dd |
@@ -97,14 +95,33 @@ This is a list of protocols which should be known to users of this protocol. For
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 
-## Related External Protocols
+### Related Protocols
+
+- This section contains protocols that should be known to users of this protocol.
+- Internal Protocols: Derivative or altered protocols, or other protocols in this workflow.
+- External Protocols: Protcols from manufacturers or other groups. 
+- Include the link to each protocol.
+- Include the version number (internal) or access date (external) of the protocol when it was accessed.
+
+#### Internal Protocols
+
+| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE |
+| ------------- | ------------ | ------------ | ------------ |
+| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd |
+| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd |
+
+#### External Protocols
 
 | PROTOCOL NAME | LINK | ISSUER / AUTHOR | ACCESS DATE |
-| ------------ | ------------ | ------------ | ---------- |
+| ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 
 ### Protocol Revision Record
+
+- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+- Release date is the date when a given protocol version was finalised.
+- Description of revisions includes a brief description of what was changed relative to the previous version.
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
@@ -124,74 +141,77 @@ This is a list of protocols which should be known to users of this protocol. For
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
-# BACKGROUND
+## BACKGROUND
 
 This document describes the required protocol to conduct insert name of the method/protocol.
 
-## Summary
+### Summary
 
 Insert a short description of the background for the method/protocol (e.g. why and for which purpose do you perform water sampling).
 Please provide a brief summary of your method including, as appropriate, a brief description of what techniques your best practice is about, which ocean environments or regions it targets, the primary sensors covered, what type of data/measurements/observing platform it covers, limits to its applicability.
 
-## Method description and rationale
+### Method description and rationale
 
 Insert a short description of the functioning principal of the methodology used in the protocol (i.e. how does the method work?). Please note that this is different from the step-by-step description of the protocol procedure.
 Insert a short statement explaining why the specific methodology used in the protocol has been selected (e.g. it is highly reproducible, highly accurate, procedures are easy to execute etc….).
 
-## Spatial coverage and environment(s) of relevance
+### Spatial coverage and environment(s) of relevance
 
 If applicable, please specify the region where the protocol is applied. For regional term guidance see here. If applicable, please indicate here the environment(s) of relevance for the protocol, e.g. Abyssal plain. Select from the ENVO terminology.
 
-## Personnel Required
+## PERSONNEL REQUIRED
 
 Insert the number of technicians, data managers, and scientists required for the good execution of the procedure
 
-## Safety
+### Safety
 
 Identify hazards associated with the procedure and specify protective equipment and safety training required to safely execute the procedure
 
-## Training requirements
+### Training requirements
 
 Specify technical training required for the good execution of the procedure.
 
-## Time needed to execute the procedure
+### Time needed to execute the procedure
 
 Specify how much time is necessary to execute the procedure.
 
-# EQUIPMENT
+## EQUIPMENT
 
-| DESCRIPTION e.g. filter | PRODUCT NAME AND MODEL Provide the official name of the product | MANUFACTURER Provide the name of the manufacturer of the product. | QUANTITY Provide quantities necessary for one application of the standard operating procedure (e.g. number of filters). | REMARK For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure. |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Durable equipment |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Consumable equipment |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Chemicals |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-
+- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
 - Description: E.g., "filter".
 - Product Name and Model: Provide the official name of the product.
 - Manufacturer: Provide the name of the manufacturer of the product.
 - Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
 - Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
 
-# STANDARD OPERATING PROCEDURE
+| DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| **Durable equipment** |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| **Consumable equipment** |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| **Chemicals** |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+
+## STANDARD OPERATING PROCEDURE
 
 In the following SOP, please use the exact names of equipment as noted in the table above.
 
 Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
 
-### Preparation
+### Protocol
+
+#### Preparation
 
 Please specify the preparatory actions you took before you collected the samples and note what equipment was needed to do so (e.g. disinfection of work surfaces, preparations to the equipment you intend to use later on).
 
 1.  Step 1
 2.  Step 2
 
-### PCR
+#### PCR
 
 Please specify the actions you took to amplify the previously extracted DNA and the equipment and primers you used (ingredients for the PCR reaction, number of triplicates, PCR cycle parameter)
 
@@ -204,14 +224,14 @@ Please specify the actions you took to amplify the previously extracted DNA and 
 
 **Reaction Mixture**: PCR reagents, volumes, initial and final concentrations
 
-| reagent | volume | intial concentration| final concentration|
-| ----- | ----- | ----- |----- |
+| Reagent | Volume | Initial Concentration | final concentration|
+| ----- | ----- | ----- | ----- |
 | content | content | content |content |
 | content | content | content |content |
 
 **PCR Cycling Program**: 
 
-| PCR step | Temperature | Duration | Repetition |
+| PCR Step | Temperature | Duration | Repetition |
 | ----- | ----- | ----- | ----- |
 | content | content | content | content |
 | content | content | content | content |
@@ -223,7 +243,7 @@ Please specify the actions you took to amplify the previously extracted DNA and 
 3. Step 3
 
 
-### Quality control, PCR clean-up
+#### Quality control, PCR clean-up
 
 Please specify the actions you took to confirm the quality of the PCR output, to clean up the PCR output and the equipment you used (e.g. agarose gel to confirm quality, purification of PCR products).
 
@@ -231,11 +251,11 @@ Please specify the actions you took to confirm the quality of the PCR output, to
 
 2. Step 2
 
-## Quality control
+### Quality control
 
 Describe and explain criteria used to validate results of the standard operating procedure.
 
-## Basic troubleshooting guide
+### Basic troubleshooting guide
 
 Identify known issues associated with the procedure, if any.
 Provide troubleshooting guidelines when available.
