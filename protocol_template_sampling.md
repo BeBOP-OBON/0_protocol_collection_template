@@ -1,40 +1,53 @@
+---
+# MIOP terms
+methodology_category: 
+project: 
+purpose: 
+analyses: 
+geographic_location: 
+broad_scale_environmental_context: 
+local_environmental_context: 
+environmental_medium: 
+target: 
+creator: 
+materials_required: 
+skills_required: 
+time_required: 
+personnel_required: 
+language: 
+issued: 
+audience: 
+publisher: 
+hasVersion: 
+license: 
+maturity level: 
+
+# FAIRe terms
+samp_category: 
+env_broad_scale: 
+env_local_scale: 
+env_medium: 
+habitat_natural_artificial_0_1: 
+samp_collect_method: 
+samp_collect_device: 
+samp_size: 
+samp_size_unit: 
+---
+
 # Protocol Template
 
-### Quick Links:
-
-- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure (main protocol)](#STANDARD-OPERATING-PROCEDURE)
+## PROTOCOL INFORMATION
 
 ## Minimum Information about an Omics Protocol (MIOP)
 
-See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
 
+### Making eDNA FAIR (FAIRe)
 
-| MIOP Term  | Value |
-| ------------- | ------------- | 
-| methodology category  |  |
-| project  |  |
-| purpose  |  |
-| analyses  |  |
-| geographic location  |  |
-| broad-scale environmental context  |  |
-| local environmental context  |  |
-| environmental medium  |  |
-| target  |  |
-| creator  |  |
-| materials required  |  |
-| skills required  |  |
-| time required  |  |
-| personnel required  |  |
-| language  |  |
-| issued  |  |
-| audience  |  |
-| publisher  |  |
-| hasVersion  |  |
-| license  |  |
-| maturity level  |  |
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
 
 ## AUTHORS
 
@@ -52,7 +65,38 @@ This is a list of protocols which should be known to users of this protocol. For
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 | Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
 
-# BACKGROUND
+## RELATED EXTERNAL PROTOCOLS
+
+| PROTOCOL NAME | LINK | ISSUER / AUTHOR | ACCESS DATE |
+| ------------ | ------------ | ------------ | ---------- |
+| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
+| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
+
+### Protocol Revision Record
+
+| VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
+| ------------- | ------------- | ------------- |
+| 1.0.0 | yyyy-mm-dd | Initial release |
+
+- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+- Release date is the date when a given protocol version was finalised.
+- Description of revisions includes a brief description of what was changed relative to the previous version.
+
+### Acronyms and Abbreviations
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+### Glossary
+
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+## BACKGROUND
 
 This document describes the required protocol to conduct insert name of the method/protocol. 
 
@@ -99,6 +143,12 @@ Specify how much time is necessary to execute the procedure.
 | Chemicals |
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+
+- Description: E.g., "filter".
+- Product Name and Model: Provide the official name of the product.
+- Manufacturer: Provide the name of the manufacturer of the product.
+- Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
+- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
 
 # STANDARD OPERATING PROCEDURE
 
@@ -149,20 +199,6 @@ Describe and explain criteria used to validate results of the standard operating
 
 Identify known issues associated with the procedure, if any.
 Provide troubleshooting guidelines when available.
-
-## ACRONYMS AND ABBREVIATIONS
-
-| ACRONYM / ABBREVIATION | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-
-## GLOSSARY
-
-| SPECIALISED TERM | DEFINITION |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 
 ## REFERENCES
 
