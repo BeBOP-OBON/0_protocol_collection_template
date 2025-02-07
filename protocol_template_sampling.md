@@ -23,13 +23,13 @@ license: CC0 1.0 Universal
 maturity level: mature
 
 # FAIRe terms
-samp_category: sample
-env_broad_scale: marine biome [ENVO:00000447]
-env_local_scale: marine photic zone [ENVO:00000209]
-env_medium: sea water [ENVO:00002149]
-habitat_natural_artificial_0_1: 0
-samp_collect_method: CTD rosette
-samp_collect_device: Niskin bottle
+samp_category: # sample
+env_broad_scale: # marine biome [ENVO:00000447]
+env_local_scale: # marine photic zone [ENVO:00000209]
+env_medium: # sea water [ENVO:00002149]
+habitat_natural_artificial_0_1: # 0
+samp_collect_method: # CTD rosette
+samp_collect_device: # Niskin bottle
 samp_size: # 1000
 samp_size_unit: # mL
 ---
