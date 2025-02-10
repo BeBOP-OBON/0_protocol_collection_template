@@ -41,7 +41,7 @@ samp_size_unit: # mL
 ### Minimum Information about an Omics Protocol (MIOP)
 
 - MIOP terms are listed in the YAML frontmatter of this page.
-- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
+- See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
 
 ### Making eDNA FAIR (FAIRe)
 
