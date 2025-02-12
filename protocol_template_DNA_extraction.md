@@ -68,24 +68,14 @@ nucl_acid_ext_method_additional: # not applicable
 ### Related Protocols
 
 - This section contains protocols that should be known to users of this protocol.
-- Internal Protocols: Derivative or altered protocols, or other protocols in this workflow.
-- External Protocols: Protcols from manufacturers or other groups. 
 - Include the link to each protocol.
-- Include the version number (internal) or access date (external) of the protocol when it was accessed.
+- Include the version number and release date (if available).
+- Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protcols from manufacturers or other groups.
 
-#### Internal Protocols
-
-| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE |
-| ------------- | ------------ | ------------ | ------------ |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd |
-
-#### External Protocols
-
-| PROTOCOL NAME | LINK | ISSUER / AUTHOR | ACCESS DATE |
-| ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
-| Content Cell  | Content Cell  | Content Cell  | yyyy-mm-dd  |
+| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
+| ------------- | ------------ | ------------ | ------------ | ----------------- |
+| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
 
 ### Protocol Revision Record
 
@@ -113,21 +103,21 @@ nucl_acid_ext_method_additional: # not applicable
 
 ## BACKGROUND
 
-This document describes the required protocol to conduct insert name of the method/protocol.
+This document describes the required protocol to conduct [insert name of the method/protocol].
 
 ### Summary
 
 Insert a short description of the background for the method/protocol (e.g. why and for which purpose do you perform water sampling).
 Please provide a brief summary of your method including, as appropriate, a brief description of what techniques your best practice is about, which ocean environments or regions it targets, the primary sensors covered, what type of data/measurements/observing platform it covers, limits to its applicability.
 
-### Method description and rationale
+### Method Description and Rationale
 
 Insert a short description of the functioning principal of the methodology used in the protocol (i.e. how does the method work?). Please note that this is different from the step-by-step description of the protocol procedure.
 Insert a short statement explaining why the specific methodology used in the protocol has been selected (e.g. it is highly reproducible, highly accurate, procedures are easy to execute etc….).
 
-### Spatial coverage and environment(s) of relevance
+### Spatial Coverage and Environment(s) of Relevance
 
-If applicable, please specify the region where the protocol is applied. For regional term guidance see here. If applicable, please indicate here the environment(s) of relevance for the protocol, e.g. Abyssal plain. Select from the ENVO terminology.
+If applicable, please specify the region where the protocol is applied. For regional term guidance see the [GAZ ontology](https://www.ebi.ac.uk/ols4/ontologies/gaz). If applicable, please indicate here the environment(s) of relevance for the protocol, e.g. Abyssal plain. Select from the [ENVO ontology](https://www.ebi.ac.uk/ols4/ontologies/envo).
 
 ## PERSONNEL REQUIRED
 
@@ -137,11 +127,11 @@ Insert the number of technicians, data managers, and scientists required for the
 
 Identify hazards associated with the procedure and specify protective equipment and safety training required to safely execute the procedure
 
-### Training requirements
+### Training Requirements
 
 Specify technical training required for the good execution of the procedure.
 
-### Time needed to execute the procedure
+### Time Needed to Execute the Procedure
 
 Specify how much time is necessary to execute the procedure.
 
@@ -172,37 +162,30 @@ In the following SOP, please use the exact names of equipment as noted in the ta
 
 Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
 
-### DNA extraction
-
-#### Preparation
+### Preparation
 
 Please specify the preparatory actions you took before you extracted the DNA from your samples and note what equipment was used to do so (e.g. disinfection of work surfaces, preparations to the equipment you intend to use later on).
 
-1. Step 1
+1. [Step 1]
+2. [Step 2]
 
-3. Step 2
-
-#### Extraction
+### Extraction
 
 Please specify the actions you took to extract the DNA from your samples and note what equipment was used to do so (e.g. incubation, vortexing, washing, elution, use of controls).
 
-1. Step 1
+1. [Step 1]
+2. [Step 2]
+   a. [Sub-step a]
+   b. [Sub-step b]
 
-3. Step 2
-
-   a. Sub-step a
-   
-   b. Sub-step b
-
-
-### Quality control
+### Quality Control
 
 Describe and explain criteria used to validate results of the standard operating procedure.
 
-### Basic troubleshooting guide
+### Basic Troubleshooting Guide
 
-Identify known issues associated with the procedure, if any.
-Provide troubleshooting guidelines when available.
+- Identify known issues associated with the procedure, if any.
+- Provide troubleshooting guidelines when available.
 
 ## REFERENCES
 
