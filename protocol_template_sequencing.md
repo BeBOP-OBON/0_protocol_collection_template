@@ -45,41 +45,6 @@ phix_perc:  # % of PhiX added into a library, if applicable. Unit = %
 
 # Protocol Template
 
-### Quick Links:
-
-- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure (main protocol)](#STANDARD-OPERATING-PROCEDURE)
-
-## Minimum Information about an Omics Protocol (MIOP)
-
-See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
-
-| MIOP Term  | Value |
-| ------------- | ------------- | 
-| methodology category  |  |
-| project  |  |
-| purpose  |  |
-| analyses  |  |
-| geographic location  |  |
-| broad-scale environmental context  |  |
-| local environmental context  |  |
-| environmental medium  |  |
-| target  |  |
-| creator  |  |
-| materials required  |  |
-| skills required  |  |
-| time required  |  |
-| personnel required  |  |
-| language  |  |
-| issued  |  |
-| audience  |  |
-| publisher  |  |
-| hasVersion  |  |
-| license  |  |
-| maturity level  |  |
-
 ## AUTHORS
 
 | PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID (visit https://orcid.org/ to register) | DATE |
