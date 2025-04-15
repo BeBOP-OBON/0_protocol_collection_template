@@ -1,3 +1,48 @@
+---
+# MIOP terms
+methodology_category: Omics Analysis
+project: # can be general
+purpose: DNA sequencing assay [OBI:0000626]
+analyses: DNA sequencing assay [OBI:0000626]
+geographic_location: 
+broad_scale_environmental_context: 
+local_environmental_context:
+environmental_medium: 
+target: 
+creator: # names separated by commas
+materials_required: 
+skills_required: 
+time_required: # minutes (integer)
+personnel_required: 1
+language: en
+issued: # YYYY-MM-DD
+audience: scientists
+publisher: # institution
+hasVersion: 1
+license: 
+maturity level: 
+
+# FAIRe terms
+barcoding_pcr_appr: # PCR approach for metabarcoding one-step PCR | two-step PCR | ligation-based 
+pcr2_thermocycler: # The manufacturer and model of a thermocycler used in the second step PCR
+pcr2_amplificationReactionVolume: # The total PCR reaction volume in the second step PCR. Unit = µL
+pcr2_commercial_mm: # Name, brand, and manufacture of commercial, pre-made master mix  in the second step PCR (if commercial master mix was used)
+pcr2_dna_vol: # Volume of DNA added in each reaction in the second step PCR. Unit = µL
+pcr2_annealingTemp: # The reaction temperature during the annealing phase of the second step PCR. Unit = degree Celsius
+pcr2_cycles: # Number of PCR cycles in the second step PCR. Unit = cycles
+pcr2_analysis_software: # The program used to analyse the PCR runs in the second step PCR
+sequencing_location: # The location the sequencing run was performed. Indicate the name of the lab or core facility where samples were sequenced
+platform: # General sequencing platform used.
+instrument: # Sequencing instrument (manufacturer and model) used. Where possible the term should be taken from the OBI list of DNA sequencers (https://ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002750)
+seq_kit: # The name of sequencing kit
+lib_layout: # Specify whether to expect single, paired, or other configuration of reads
+adapter_forward: # Forward sequencing adapter. The sequence should be reported in uppercase letters
+adapter_reverse: # Reverse sequencing adapter. The sequence should be reported in uppercase letters
+lib_screen: # Specific enrichment or screening methods applied before and/or after creating libraries
+lib_conc_meth: # Method to estimate lib_conc
+phix_perc:  # % of PhiX added into a library, if applicable. Unit = %
+---
+
 # Protocol Template
 
 ### Quick Links:
