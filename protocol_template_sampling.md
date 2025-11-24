@@ -32,6 +32,15 @@ samp_collect_method: # CTD rosette
 samp_collect_device: # Niskin bottle
 samp_size: # 1000
 samp_size_unit: # mL
+samp_store_temp: # -80
+samp_store_sol: # DNA/RNA Shield
+samp_mat_process: # Water samples were pre-filtered using a sieve (200 micrometers), then filtered using a peristaltic pump (pore size 0.45 micrometers).
+filter_passive_active_0_1: # 1
+prefilter_material: # nylon
+size_frac_low: # 20.0
+size_frac: # 0.22
+filter_diameter: # 47.0
+filter_material: # cellulose ester
 ---
 
 # Protocol Template - Sampling
