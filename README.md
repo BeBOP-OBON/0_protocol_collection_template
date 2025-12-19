@@ -18,9 +18,9 @@ This repository currently contains protocol templates for the following steps of
 - [DNA extraction](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_DNA_extraction.md)
 - [PCR and clean up](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_PCR.md)
 - [Sequencing](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_sequencing.md)
-- [In-silico analysis](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_insilico_analysis.md)
+- [Bioinformatics](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/protocol_template_bioinformatics.md)
 
-All protocol templates follow a similar structure: General metadata on top, followed by sections on background, personnel required, and equipment required. Next, you will find a section on the Standard Operating Procedure (SOP), which should be used to report on the exact steps taken as part of executing a protocol. In the template for insilico analysis, in place of the SOP, there is a Guide to the archived methodology and a section on Archive content. The templates conclude with References and Appendices.
+All protocol templates follow a similar structure: General metadata on top, followed by sections on background, personnel required, and equipment required. Next, you will find a section on the Standard Operating Procedure (SOP), which should be used to report on the exact steps taken as part of executing a protocol. In the template for bioinformatics, in place of the SOP, there is a Guide to the archived methodology and a section on Archive content. The templates conclude with References and Appendices.
 
 Note, that the protocol-level metadata is to be reported as part of the protocol in the section Minimum Information about an Omic Protocol (MIOP). For more information and guidance on MIOP, please refer to this document [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) or consult the [MIOP repository](https://github.com/BeBOP-OBON/miop) in this organisation.
 
