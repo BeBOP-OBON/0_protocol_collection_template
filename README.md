@@ -6,7 +6,7 @@ This repository is maintained by the Better Biomolecular Ocean Practices (BeBOP)
 
 ## Aim and scope
 
-We aim to achieve increased comparability between Biomolecular Ocean Practices (BOPs). Currently, the wealth of ocean biomolecular practices is shared in diverse formats (e.g. text in publications, pdfs, ...). To allow the community to understand differences in practices and the potential for integrating the data generated using the BOPs, we intend to offer means of standardization via the development of the templates found in this repository. These will allow humans to more efficiently (or at all) log and compare protocols at scale.
+We aim to achieve increased comparability between Biomolecular Ocean Practices (BOPs). Currently, the wealth of ocean biomolecular practices is shared in diverse formats (e.g., text in publications, PDFs, ...). To allow the community to understand differences in practices and the potential for integrating the data generated using the BOPs, we intend to offer means of standardization via the development of the templates found in this repository. These will allow humans to more efficiently (or at all) log and compare protocols at scale.
 
 ## Example BeBOP protocols
 
@@ -28,18 +28,14 @@ All protocol templates follow a similar structure: General metadata on top, foll
 
 Note, that the protocol-level metadata is to be reported as part of the protocol in the section Minimum Information about an Omic Protocol (MIOP). For more information and guidance on MIOP, please refer to this document [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) or consult the [MIOP repository](https://github.com/BeBOP-OBON/miop) in this organisation.
 
-### Create your own repository from this template
+### Create your own repository for each protocol
 
-**To use the templates, and apply them to your own protocols, please create a repository from this template.**
+To create a new protocol, follow these instructions:
 
-This repository is a "template respository". For guidance on how to create your own repository from this template please see [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-On the main page of this repository:
-
-1. Above the file list, click "Use this template".
-2. Select "Create a new repository".
-3. Choose repository ownership (select "BeBOP-OBON" to be featured on the BeBOP page) and name your repository after your project or institution
-  - *You can always link your repository later to the BeBOP-OBON github space if you would like to work on protocols within your own github location first.*
+1. Create a new repository from your GitHub account or organization. Choose a descriptive name, e.g., "MyInstitution-PCR-Protocol-MyAssay".
+2. Create a README.md file. It can be blank for now. You'll be able to add the Zenodo DOI later (see below).
+3. Create a new markdown file for your protocol. You may want to use the same name as your repository name, e.g., "MyInstitution-PCR-Protocol-MyAssay.md".
+4. Copy the appropriate template text from this repository to your new markdown file.
 
 ### Editing the protocol templates
 
@@ -49,12 +45,14 @@ Training resources:
 
 - [Markdown Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Markdown Crash Course by Traversy Media](https://youtu.be/HUBNt18RFbo) 
-- [Writing on GitHub by GitHub docs](https://docs.github.com/en/get-started/writing-on-github)
+- [Writing on GitHub from GitHub Docs](https://docs.github.com/en/get-started/writing-on-github)
 
-Markdown Editors (not necessary, but may facilitate editing in markdown):
+Markdown editors (not necessary but may facilitate editing in markdown):
 
-- [Visiual Studio Code](https://code.visualstudio.com/Docs/languages/markdown)
-- [MacDown](https://macdown.uranusjr.com), open source Markdown editor for macOS
+- [Visual Studio Code](https://code.visualstudio.com/Docs/languages/markdown) – widely used integrated development environment
+- [Typora](https://typora.io/) – simple yet powerful Markdown editor for all operating systems
+- [MacDown](https://macdown.uranusjr.com) – open-source Markdown editor for macOS
+- [HackMD.io](https://hackmd.io/) – web-based Markdown editor for collaborative work
 
 ### Versioning
 
@@ -71,17 +69,34 @@ As noted there, we recommend the use of [semantic versioning](https://semver.org
 
 ### Converting Markdown to PDF
 
-For sharing the protocols, PDF versions of the protocols may be more convenient(xRef https://github.com/BeBOP-OBON/0_protocol_collection_template/issues/1). The PDF versions of the protocols can also be added to your repository alongside with their markdown versions. 
+For sharing the protocols, PDF versions of the protocols may be more convenient. The PDF versions of the protocols can also be added to your repository alongside with their markdown versions. 
 
-Please see below for some tools to convert your markdown file to PDF:
+Please see below for some tools to convert your Markdown file to PDF:
 
 - [Markdowntopdf](https://www.markdowntopdf.com)(online tool)
 - [GitHub action to make pdfs from markdown files](https://github.com/BaileyJM02/markdown-to-pdf)
 - [Pandoc](https://pandoc.org/MANUAL.html)
 
-### Release your repository and get citable DOIs from Zenodo
+### Getting citable DOIs from Zenodo
 
-For information on creating a release of your repository and getting DOIs from Zenodo, please see the guidance [here](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
+Create a release of your repository and get DOIs from Zenodo for each new release (version):
+
+1. Enable the Zenodo-GitHub integration for your repository on your Zenodo profile page.
+2. Make sure your repository is Public and has a License.
+3. Create a new Release on GitHub using a semantic version tag (e.g., v1.0.0).
+4. Zenodo will automatically detect the new release, archive the code associated with that tag, and mint a new specific-version DOI (while linking it to your existing Concept DOI).
+5. Look up the GitHub Repository ID by going to https://api.github.com/repos/{user}/{repo}.
+6. Add the below lines of code including your Repository ID ({id}) to your repository's README.md file:
+
+```
+[![DOI](https://zenodo.org/badge/{id}.svg)](https://zenodo.org/badge/latestdoi/{id})
+
+Concept DOI: [10.5281/zenodo.{concept}](https://doi.org/10.5281/zenodo.{concept})
+```
+
+7. Get the Concept DOI by clicking on the badge (first link) and copying the DOI that appears on the right side of the page where it says "Cite all versions?", then add it to the README.md file.
+
+For more information on creating a release of your repository and getting DOIs from Zenodo, please see the guidance [here](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
 
 Please also note the [GLOMICON community](https://zenodo.org/communities/glomicon/) on Zenodo. When archiving your repository with Zenodo, please do so in this community.
 
