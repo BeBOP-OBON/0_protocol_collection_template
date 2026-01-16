@@ -217,12 +217,10 @@ Below, please find guidance on what this archive should include. When describing
 
 ### Archive content
 
-To reproduce the in-silico analysis, please provide one of the following (in order of decreasing preference)
+To reproduce the in-silico analysis, please provide one of the following (in order of decreasing preference):
 
 1. Jupyter, R notebook(s) or equivalents
-
 2. Downloaded archive of (the released version of) your github repository
-
 3. Individual scripts
 
 In each of the above cases, guidance and documentation for all the steps you took to perform the in-silico analysis should be included. In case 1., code and documentation are integrated. In cases 2. and 3., in-line comments may be provided, however, these are not generally sufficient as documentation. In those cases, please provide a step-by-step protocol on how and when to run each script in the Execution Procedure section below.
@@ -241,8 +239,7 @@ Here, please indicate if your documentation is with the code (in a code notebook
 
 Please provide link(s) to the files containing metadata about your sequence data (e.g. environmental data, procedural data). Please see the MIxS compliant metadata guidance.
 
-Auxiliary files
-e.g. mapping files, test/dummy files, colour palette
+Auxiliary files, e.g. mapping files, test/dummy files, colour palette.
 
 ### Execution Procedure
 
@@ -254,8 +251,7 @@ In this section please include the names and paths that can be used to validate 
 
 ### Basic troubleshooting guide
 
-Identify known issues associated with the procedure, if any.
-Provide troubleshooting guidelines when available.
+Identify known issues associated with the procedure, if any. Provide troubleshooting guidelines when available.
 
 ## REFERENCES
 
