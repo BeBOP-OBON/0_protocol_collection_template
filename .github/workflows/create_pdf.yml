@@ -30,12 +30,23 @@ jobs:
       - name: create pdf file(s)
         run: |
           find . -type f \( -iname "*.md" ! -iname "README.md" \) | while read f; do 
+            # 1. Get the filename without extension and directory
+            # 2. Replace underscores with spaces for a cleaner look
+            CLEAN_NAME=$(basename "$f" .md | tr '_' ' ')
+
             pandoc "$f" -s -o "output/${f%.md}.pdf" \
             --toc \
             --number-sections \
             --pdf-engine=xelatex \
             -V geometry:margin=1in \
             -V header-includes="
+              \usepackage{fancyhdr}
+              \pagestyle{fancy}
+              \fancyhf{}
+              \lhead{$CLEAN_NAME}
+              \rhead{\thepage}
+              \renewcommand{\headrulewidth}{0.4pt}
+              \fancypagestyle{plain}{\fancyhf{}\lhead{$CLEAN_NAME}\rhead{\thepage}}
               \renewcommand{\thesection}{}
               \renewcommand{\thesubsection}{\arabic{subsection}}
               \renewcommand{\thesubsubsection}{\arabic{subsection}.\arabic{subsubsection}}
