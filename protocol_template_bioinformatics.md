@@ -256,7 +256,7 @@ Identify known issues associated with the procedure, if any. Provide troubleshoo
 ## REFERENCES
 
 - Insert all references cited in the document.
-- Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1
+- Please insert full DOI address when available, e.g., https://doi.org/10.1007/s11258-014-0404-1.
 
 ## APPENDIX A: DATASHEETS
 
