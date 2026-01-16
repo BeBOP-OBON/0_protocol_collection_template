@@ -69,13 +69,18 @@ As noted there, we recommend the use of [semantic versioning](https://semver.org
 
 ### Converting Markdown to PDF
 
-For sharing the protocols, PDF versions of the protocols may be more convenient. The PDF versions of the protocols can also be added to your repository alongside with their markdown versions. 
+For sharing and working with protocols in the laboratory, PDF versions of the protocols may be more convenient.
 
-Please see below for some tools to convert your Markdown file to PDF:
+To automatically generate PDF files from your protocol Markdown files:
 
-- [Markdowntopdf](https://www.markdowntopdf.com)(online tool)
-- [GitHub action to make pdfs from markdown files](https://github.com/BaileyJM02/markdown-to-pdf)
-- [Pandoc](https://pandoc.org/MANUAL.html)
+- Create a file called `create_pdf.yml` (copy from [here](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/.github/workflows/create_pdf.yml)) and place it in your repository in the folder `.github/workflows`.
+- Edit the settings of the repository to allow read/write permissions for the Action. Go to Settings > Actions > General > Workflow permissions. Select Read and write permissions.
+- This GitHub Action automatically converts your Markdown files into formatted PDFs using a Pandoc/LaTeX container whenever you push changes, then commits those finished PDFs back into your repository for you. 
+
+To manually generate PDF files from your protocol Markdown files, please see below for some alternate tools:
+
+- [Markdowntopdf](https://www.markdowntopdf.com) (online tool)
+- [Pandoc](https://pandoc.org/MANUAL.html) (command line tool)
 
 ### Getting citable DOIs from Zenodo
 

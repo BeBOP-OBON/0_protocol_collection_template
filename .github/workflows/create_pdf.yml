@@ -2,6 +2,16 @@ name: create PDF workflow
 
 on:
   push:
+    branches:
+      - main
+    paths:
+      - '**.md'          # Only run if Markdown files change
+      - '!.github/**'    # Don't run if only workflow files change
+
+# This prevents multiple runs from overlapping if you push rapidly
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   makepdfs:
@@ -10,40 +20,50 @@ jobs:
       image: docker://pandoc/latex:2.9
 
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: prepare output directories
-      run: |
-        for d in */; do
-          mkdir -p output/$d
-        done
+      - name: prepare output directories
+        run: |
+          for d in */; do
+            mkdir -p output/"$d"
+          done
 
-    - name: create pdf file(s)
-      run: |
-        find . -type f \( -iname "*.md" ! -iname "README.md" \) | while read f; do pandoc "$f" -s -o "output/${f%.md}.pdf" --toc --number-sections --verbose; done
+      - name: create pdf file(s)
+        run: |
+          find . -type f \( -iname "*.md" ! -iname "README.md" \) | while read f; do 
+            pandoc "$f" -s -o "output/${f%.md}.pdf" --toc --number-sections --verbose
+          done
 
-    - uses: actions/upload-artifact@v3
-      with:
-        name: output
-        path: output
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: output
 
   pushpdfs:
     needs: makepdfs
     runs-on: ubuntu-latest
-
+    # Added a check to ensure the bot doesn't trigger itself
+    if: github.actor != 'github-actions[bot]'
+    
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Download all workflow run artifacts
-      uses: actions/download-artifact@v3
-      with:
-        name: output
-        path: pdf
+      - name: Download all workflow run artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: output
+          path: pdf
 
-    - name: Add and commit files
-      run: |
-        git config --global user.name github-actions[bot]
-        git config --global user.email github-actions[bot]@users.noreply.github.com
-        git add pdf/*.pdf
-        git commit -m "Auto update pdfs" -a
-        git push
+      - name: Add and commit files
+        run: |
+          git config --global user.name github-actions[bot]
+          git config --global user.email github-actions[bot]@users.noreply.github.com
+          
+          # Check if there are actually changes to avoid empty commit errors
+          git add pdf/*.pdf
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update pdfs [skip ci]" -a
+            git push
+          fi
