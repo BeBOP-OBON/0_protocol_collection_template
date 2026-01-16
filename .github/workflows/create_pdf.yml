@@ -35,6 +35,11 @@ jobs:
             --number-sections \
             --pdf-engine=xelatex \
             -V geometry:margin=1in \
+            -V header-includes="
+              \renewcommand{\thesection}{}
+              \renewcommand{\thesubsection}{\arabic{subsection}}
+              \renewcommand{\thesubsubsection}{\arabic{subsection}.\arabic{subsubsection}}
+            " \
             --verbose
           done
 
