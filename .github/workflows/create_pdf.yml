@@ -5,10 +5,10 @@ on:
     branches:
       - main
     paths:
-      - '**.md'          # Only run if Markdown files change
-      - '!.github/**'    # Don't run if only workflow files change
+      - '**.md'
+      - '!.github/**'
 
-# This prevents multiple runs from overlapping if you push rapidly
+# Prevents multiple runs from overlapping
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -20,7 +20,7 @@ jobs:
       image: docker://pandoc/latex:2.9
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: prepare output directories
         run: |
@@ -30,11 +30,16 @@ jobs:
 
       - name: create pdf file(s)
         run: |
+          # The --pdf-engine=xelatex flag allows for Unicode characters like ≤
           find . -type f \( -iname "*.md" ! -iname "README.md" \) | while read f; do 
-            pandoc "$f" -s -o "output/${f%.md}.pdf" --toc --number-sections --verbose
+            pandoc "$f" -s -o "output/${f%.md}.pdf" \
+            --toc \
+            --number-sections \
+            --pdf-engine=xelatex \
+            --verbose
           done
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: output
           path: output
@@ -42,14 +47,18 @@ jobs:
   pushpdfs:
     needs: makepdfs
     runs-on: ubuntu-latest
-    # Added a check to ensure the bot doesn't trigger itself
+    # Explicitly grant permission to write (push) to the repository
+    permissions:
+      contents: write
+    
+    # Safety check to prevent the bot from triggering its own workflow
     if: github.actor != 'github-actions[bot]'
     
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: output
           path: pdf
@@ -59,11 +68,11 @@ jobs:
           git config --global user.name github-actions[bot]
           git config --global user.email github-actions[bot]@users.noreply.github.com
           
-          # Check if there are actually changes to avoid empty commit errors
           git add pdf/*.pdf
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
+            # [skip ci] tells GitHub not to run the workflow again for this specific commit
             git commit -m "Auto update pdfs [skip ci]" -a
             git push
           fi
