@@ -96,7 +96,7 @@ output_otu_num: # not applicable
 otu_num_tax_assigned: # not applicable
 ---
 
-# Protocol Template - Bioinformatics
+# Protocol Template -- Bioinformatics
 
 ## PROTOCOL INFORMATION
 

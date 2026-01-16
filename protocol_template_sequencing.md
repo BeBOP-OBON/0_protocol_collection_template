@@ -35,7 +35,7 @@ lib_conc_meth: # Method to estimate lib_conc
 phix_perc:  # % of PhiX added into a library, if applicable. Unit = %
 ---
 
-# Protocol Template - Sequencing
+# Protocol Template -- Sequencing
 
 ## PROTOCOL INFORMATION
 

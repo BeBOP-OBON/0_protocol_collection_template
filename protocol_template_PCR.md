@@ -60,7 +60,7 @@ pcr_analysis_software: # not provided
 pcr_method_additional: # not provided
 ---
 
-# Protocol Template - PCR
+# Protocol Template -- PCR
 
 ## PROTOCOL INFORMATION
 

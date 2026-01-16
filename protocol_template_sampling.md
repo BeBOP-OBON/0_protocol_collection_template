@@ -43,7 +43,7 @@ filter_diameter: # 47.0
 filter_material: # cellulose ester
 ---
 
-# Protocol Template - Sampling
+# Protocol Template -- Sampling
 
 ## PROTOCOL INFORMATION
 

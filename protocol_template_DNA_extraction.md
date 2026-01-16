@@ -39,7 +39,7 @@ pool_dna_num: # not applicable
 nucl_acid_ext_method_additional: # not applicable
 ---
 
-# Protocol Template - DNA Extraction
+# Protocol Template -- DNA Extraction
 
 ## PROTOCOL INFORMATION
 
