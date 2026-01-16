@@ -1,0 +1,49 @@
+name: create PDF workflow
+
+on:
+  push:
+
+jobs:
+  makepdfs:
+    runs-on: ubuntu-latest
+    container:
+      image: docker://pandoc/latex:2.9
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: prepare output directories
+      run: |
+        for d in */; do
+          mkdir -p output/$d
+        done
+
+    - name: create pdf file(s)
+      run: |
+        find . -type f \( -iname "*.md" ! -iname "README.md" \) | while read f; do pandoc "$f" -s -o "output/${f%.md}.pdf" --toc --number-sections --verbose; done
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: output
+        path: output
+
+  pushpdfs:
+    needs: makepdfs
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Download all workflow run artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: output
+        path: pdf
+
+    - name: Add and commit files
+      run: |
+        git config --global user.name github-actions[bot]
+        git config --global user.email github-actions[bot]@users.noreply.github.com
+        git add pdf/*.pdf
+        git commit -m "Auto update pdfs" -a
+        git push
