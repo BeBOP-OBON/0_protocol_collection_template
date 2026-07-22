@@ -176,7 +176,7 @@ Please specify the actions you took to extract the DNA from your samples and not
 
 ### Quality Control
 
-Describe and explain criteria used to validate results of the standard operating procedure.
+Describe and explain criteria used to validate results of the standard operating procedure. Please include information on negative and positive controls included as part of this procedure.
 
 ### Basic Troubleshooting Guide
 
