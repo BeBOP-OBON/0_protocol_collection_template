@@ -202,7 +202,7 @@ Please specify how you stored your samples and note what equipment you used to d
 
 ### Quality Control
 
-Describe and explain criteria used to validate results of the standard operating procedure.
+Describe and explain criteria used to validate results of the standard operating procedure. Please include information on negative and positive controls included as part of this procedure.
 
 ### Basic Troubleshooting Guide
 
